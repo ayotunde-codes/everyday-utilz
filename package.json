@@ -1,5 +1,5 @@
 {
-  "name": "everydayUtilz",
+  "name": "everyday-utilz",
   "version": "1.0.0",
   "description": "everyday javascript utils to speed up development time",
   "main": "lib/index.js",
