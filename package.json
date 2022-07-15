@@ -1,6 +1,6 @@
 {
   "name": "everyday-utilz",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "everyday javascript utils to speed up development time",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
