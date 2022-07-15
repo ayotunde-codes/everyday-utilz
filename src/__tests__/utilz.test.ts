@@ -54,7 +54,7 @@ test('check if the entire string is in upper case', () => {
 });
 
 // 🀄 isLowercase
-test('check if the entire string is in upper case', () => {
+test('check if the entire string is in lower case', () => {
   expect(isLowerCase('nigeria')).toBe(true);
   expect(isLowerCase('nigeRIA')).toBe(false);
   expect(isLowerCase('NIGeRIA')).toBe(false);
