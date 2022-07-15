@@ -266,7 +266,7 @@ export const upperCaseFirst = (text: string): string => {
 
 // util 12
 
-export const ucAllFirst = (word: string, transformAll = true) => {
+export const upperCaseAllFirst = (word: string, transformAll = true) => {
   if (!isEmptyString(word)) {
     const wordArr = word.split(' ');
     const newWord = wordArr.map((value) => {

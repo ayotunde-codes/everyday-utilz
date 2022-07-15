@@ -8,8 +8,7 @@ import {
   lowerCaseFirst,
   reverseString,
   stringToArray,
-  ucAllFirst,
-  ucFirst,
+  upperCaseAllFirst,
   upperCaseFirst,
 } from '../index';
 
@@ -85,7 +84,7 @@ test('make first letter of a string uppercase', () => {
 
 // 🀄 ucAllFirst
 test('make first letter  of a word in a string  to uppercase', () => {
-  expect(ucAllFirst('Nigeria we are here')).toBe('Nigeria We Are Here');
-  expect(ucAllFirst('nigeria')).toBe('Nigeria');
-  expect(ucAllFirst('nigeria')).not.toBe('nigeria');
+  expect(upperCaseAllFirst('Nigeria we are here')).toBe('Nigeria We Are Here');
+  expect(upperCaseAllFirst('nigeria')).toBe('Nigeria');
+  expect(upperCaseAllFirst('nigeria')).not.toBe('nigeria');
 });
