@@ -238,7 +238,7 @@ export const reverseString = (stringValue: string): string => {
 };
 
 // util 10
-export const lcFirst = (value: string): string => {
+export const lowerCaseFirst = (value: string): string => {
   let newValue = '';
   for (let i = 0; i < value.length; i += 1) {
     if (i === 0) {
@@ -252,7 +252,7 @@ export const lcFirst = (value: string): string => {
 
 // utils 11
 
-export const ucFirst = (text: string): string => {
+export const upperCaseFirst = (text: string): string => {
   let newValue = '';
   for (let i = 0; i < text.length; i += 1) {
     if (i === 0) {

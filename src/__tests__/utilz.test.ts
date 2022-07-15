@@ -5,11 +5,12 @@ import {
   isEmptyString,
   isLowerCase,
   isUpperCase,
-  lcFirst,
+  lowerCaseFirst,
   reverseString,
   stringToArray,
   ucAllFirst,
   ucFirst,
+  upperCaseFirst,
 } from '../index';
 
 // 🀄 isEmpty
@@ -71,15 +72,15 @@ test('reverse a string value', () => {
 
 // 🀄 lcFirst
 test('make first letter of a string lowercase', () => {
-  expect(lcFirst('Nigeria')).toBe('nigeria');
-  expect(lcFirst('Nigeria')).not.toBe('Nigeria');
+  expect(lowerCaseFirst('Nigeria')).toBe('nigeria');
+  expect(lowerCaseFirst('Nigeria')).not.toBe('Nigeria');
 });
 
 // 🀄 ucFirst
 test('make first letter of a string uppercase', () => {
-  expect(ucFirst('Nigeria')).toBe('Nigeria');
-  expect(ucFirst('nigeria')).toBe('Nigeria');
-  expect(ucFirst('nigeria')).not.toBe('nigeria');
+  expect(upperCaseFirst('Nigeria')).toBe('Nigeria');
+  expect(upperCaseFirst('nigeria')).toBe('Nigeria');
+  expect(upperCaseFirst('nigeria')).not.toBe('nigeria');
 });
 
 // 🀄 ucAllFirst
