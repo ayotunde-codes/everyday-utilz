@@ -5,6 +5,7 @@ import {
   isEmptyString,
   isLowerCase,
   isUpperCase,
+  isEven,
   lowerCaseFirst,
   reverseString,
   stringToArray,
@@ -16,6 +17,12 @@ import {
 test('Is empty string', () => {
   expect(isEmptyString('Carl')).toBe(false);
   expect(isEmptyString('')).toBe(true);
+});
+
+// isEven
+test('Is even number', () => {
+  expect(isEven(2)).toBe(true);
+  expect(isEven(23)).toBe(false);
 });
 
 // 🀄 isEmail

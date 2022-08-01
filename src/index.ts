@@ -281,3 +281,7 @@ export const upperCaseAllFirst = (word: string, transformAll = true) => {
   }
   return word;
 };
+
+// util 13
+
+export const isEven = (num: number) => num % 2 === 0;
